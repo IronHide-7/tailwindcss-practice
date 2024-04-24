@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <nav class="p-4 bg-transparent absolute w-full z-10">
+            <div class="container mx-auto flex justify-between items-center text-white">
+                <div class="font-bold text-xl px-0.5">Interiorz</div>
+                <div class="md:flex hidden sm:space-x-18">
+                    <ul class="flex space-x-20">
+                        <li><a href="index.html" class="font-bold hover:text-black">Home</a></li>
+                        <li><a href="Bedroom.html" class="font-bold hover:text-black">Bedroom</a></li>
+                        <li><a href="kitchen.html" class="font-bold hover:text-black">Kitchen</a></li>
+                        <li><a href="backyard.html" class="font-bold hover:text-black">Backyard</a></li>
+                    </ul>
+                </div>
+                <!--three lines-->
+                <div class="md:hidden text-3xl font-extrabold flex justify-end items-start">
+                    <a href="#">&#9776;</a> 
+                </div>
+                <!--three lines-->
+            </div>
+        </nav>
+        <!--background image-->
+        <div class="w-screen h-screen relative overflow-hidden">
+            <img class="object-cover w-full h-full blur-sm" src="./imgs/bedroom.jpeg" alt="">
+            <div class="absolute inset-0 bg-black opacity-40"></div> <!---black tint to image-->
+        </div>
+        <!--background image-->
+    </div>
+
+    <div class="absolute inset-0 flex flex-col justify-center items-center">
+        <h1 class="font-semibold text-4xl md:text-6xl text-white">DESIGN YOUR BEDROOM</h1>
+        <p class="text-white text-lg md:text-xl">Lorem ipsum dolor sit.</p>
+    </div>
+</body>
+</html>
